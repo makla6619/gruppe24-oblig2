@@ -111,6 +111,16 @@ p {
   text-align: center;
 }
 
+.link-to-original-page {
+  font-weight: lighter;
+  font-size: smaller;
+}
+
+.link-to-original-article{
+  color: #ff4e00;
+  text-decoration:#ff4e00;
+}
+
 /* SECOND PAGE */
 
 .banner {
@@ -131,6 +141,7 @@ p {
   margin-left: 20px;
   text-decoration: none;
   cursor: pointer;
+  margin-bottom: 20px;
 }
 
 .link-to-article:hover {
@@ -142,6 +153,8 @@ p {
   color: black;
 /* The look of the link when you hover over it, when you click on it, 
 and when you have opened the article in a new tab*/
+/*The .link-to-article styling is used in both pages to style the buttons to link
+to the other page*/
 }
 
 .container-two {
