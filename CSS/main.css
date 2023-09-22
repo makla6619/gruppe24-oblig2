@@ -93,3 +93,140 @@ p {
   font-weight: bolder;
   margin-left: 20px;
 }
+
+/* SECOND PAGE */
+
+.banner {
+  font-family: 'Open sans';
+  font-weight: lighter;
+  padding: 20px;
+  text-align: left;
+  background: rgb(255, 129, 0);
+  margin-bottom: 100px;
+}
+
+.oslomet-logo {
+  float: left;
+}
+.link-to-article {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 10px;
+  font-weight: bolder;
+  display: inline-block;
+  margin-left: 20px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.link-to-article:hover {
+  opacity: 0.3;
+}
+
+.link-to-article:active,
+.link-to-article:visited {
+  color: black;
+/* The look of the link when you hover over it, when you click on it, 
+and when you have opened the article in a new tab*/
+}
+
+.container-two {
+  font-family: 'Open sans';
+  margin-left: 20px;
+  margin-right: 20px;
+  align-items: baseline;
+}
+
+.header-second-page {
+  line-height: 0.95;
+  margin-bottom: 50px;
+  border-bottom: solid;
+  border-bottom-width: 1px;
+}
+
+.course-description {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 50px;
+  margin-left: 5px;
+}
+
+.sub-header-second-page {
+  border-bottom: solid;
+  border-bottom-width: 1px;
+  margin-bottom: 50px;
+}
+
+.coursename-norwegian {
+  margin-bottom: 50px;
+  font-size: 18px;
+  margin-left: 5px;
+}
+
+.learning-outcomes-header:hover {
+  opacity: 0.3;
+  transition: 0.15s;
+}
+
+/* Creating a custom checkbox */
+input {
+  display: none;
+  /* The checkbox is a checkmark, and this ensures the checkmark doesnt show up on the page */
+}
+
+label {
+    display: block;    
+    padding: 8px 22px;
+    margin: 0 0 1px 0;
+    cursor: pointer;
+    background: #ffd500;
+    border-radius: 3px;
+    color: black;
+    transition: ease .5s;
+    position: relative;
+    /* This is the yellow box incapsulating the title 'Learning Outcomes' */
+    }
+
+label:hover {
+  background: #f5e48e;
+  transition: 0.15s;
+  /* The yellow box changes to a lighter color when you hover over it */
+}
+
+label::after {
+    content: '+';  /* When the box is 'closed' the symbol in the top right corner is a '+' */
+    font-size: 22px;
+    font-weight: bold;
+    position: absolute;
+    right: 10px;
+    top: 2px; 
+}
+
+input:checked + label::after {
+    content: '-';     /* When the box is 'open' the symbol in the top right corner changes to a '-' */
+    right: 14px;
+    top: 3px;
+}
+
+input + label + .content {
+    display: none;
+    /* This is the look of the box when it is 'closed' */
+}
+
+input:checked + label + .content {
+    display: block;
+    /* This ensures that the Learning Outcomes are shown when the box/label is 'open' */
+}
+
+.explanation-learning-outcomes {
+  font-weight: 400;
+  /* This is the text before the three unordered lists*/
+}
+
+.content {
+  margin-bottom: 20px;
+  margin: 0 0 1px 0;
+  align-items: center;
+  padding: 10px 25px;
+  border-radius: 3px;
+  /* This targets the content inside of the collapsible */
+}
