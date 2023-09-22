@@ -1,7 +1,9 @@
 /* FIRST PAGE */
+body{
+  font-family: Helvetica;
+}
 
 p {
-  font-family: Helvetica;
   font-weight: 400;
   font-size: 16px;
   margin-left: 20px;
@@ -18,7 +20,6 @@ p {
 }
 
 .headline-first-page {
-  font-family: Helvetica;
   font-weight:600;
   margin-left: 20px;
   font-size: 50px;
@@ -28,7 +29,6 @@ p {
 }
 
 .sub-heading-first-page {
-  font-family: Helvetica;
   font-weight: 500;
   margin-left: 20px;
   width: auto;
@@ -36,7 +36,6 @@ p {
 }
 
 .author-article {
-  font-family: Helvetica;
   color:#ff4e00;
   font-weight: 600;
   font-size: 13px;
@@ -51,7 +50,6 @@ p {
 }
 
 .date {
-  font-family: Helvetica;
   font-size: 13px;
   font-weight: 600;
   color: grey;
@@ -70,7 +68,6 @@ p {
 }
 
 .caption-image1 {
-  font-family: Helvetica;
   font-size: 10px;
   font-weight: bolder;
   border-bottom-color: rgb(233, 220, 220);
@@ -89,7 +86,6 @@ p {
 }
 
 .spoilers {
-  font-family: Helvetica;
   font-weight: bolder;
   margin-left: 20px;
 }
@@ -118,7 +114,6 @@ p {
 /* SECOND PAGE */
 
 .banner {
-  font-family: Helvetica;
   font-weight: lighter;
   padding: 20px;
   text-align: left;
@@ -130,7 +125,6 @@ p {
   float: left;
 }
 .link-to-article {
-  font-family: Helvetica;
   font-size: 10px;
   font-weight: bolder;
   display: inline-block;
@@ -151,7 +145,6 @@ and when you have opened the article in a new tab*/
 }
 
 .container-two {
-  font-family: Helvetica;
   margin-left: 20px;
   margin-right: 20px;
   align-items: baseline;
