@@ -38,8 +38,6 @@ p {
   line-height: 0.8;
 }
 
-
-
 .author-article {
   color:#ff4e00;
   font-weight: 600;
@@ -84,6 +82,10 @@ p {
 
 .original-image {
   color:#ff4e00;
+}
+
+.original-image:hover {
+  color: rgb(95, 98, 101); 
 }
 
 .text-one {
