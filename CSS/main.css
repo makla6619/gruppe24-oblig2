@@ -200,10 +200,11 @@ p {
 
 .banner {
   font-weight: lighter;
-  padding: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   text-align: left;
   background: rgb(255, 129, 0);
-  margin-bottom: 80px;
+  margin-bottom: 60px;
 }
 
 .oslomet-logo {
@@ -216,7 +217,7 @@ p {
   margin-left: 20px;
   text-decoration: none;
   cursor: pointer;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   margin-top: 10px;
 }
 
