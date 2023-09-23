@@ -200,10 +200,10 @@ p {
 
 .banner {
   font-weight: lighter;
-  padding: 20px;
+  padding: 5px;
   text-align: left;
   background: rgb(255, 129, 0);
-  margin-bottom: 100px;
+  margin-bottom: 80px;
 }
 
 .oslomet-logo {
@@ -217,6 +217,7 @@ p {
   text-decoration: none;
   cursor: pointer;
   margin-bottom: 20px;
+  margin-top: 10px;
 }
 
 .link-to-article:hover {
@@ -334,4 +335,5 @@ input:checked + label + .content {
   border-radius: 3px;
   /* This targets the content inside of the collapsible */
 }
+
 
