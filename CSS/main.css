@@ -255,12 +255,14 @@ to the other page*/
   border-bottom: solid;
   border-bottom-width: 1px;
   margin-bottom: 50px;
+  margin-left: 15px;
 }
 
 .coursename-norwegian {
   margin-bottom: 50px;
   font-size: 18px;
-  margin-left: 5px;
+  margin-left: 15px;
+
 }
 
 .learning-outcomes-header:hover {
