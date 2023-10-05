@@ -338,7 +338,7 @@ input:checked + label + .content {
 }
 
 .content {
-  margin-bottom: 20px;
+  margin-bottom: 5px;
   margin: 0 0 1px 0;
   align-items: center;
   padding: 10px 25px;
